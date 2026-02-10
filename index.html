@@ -333,17 +333,39 @@
         </div>
     </div>
     
-    <header class="relative text-gray-800 flex items-center justify-center text-left hero-section py-16 md:py-24">
-        <div class="hero-content max-w-4xl mx-4 md:mx-0 p-6 rounded-3xl">
-            <h1 class="text-3xl md:text-5xl font-extrabold mb-3 leading-tight animated-text-gradient">Studio Ligjore Gentjana Ndoj</h1>
-            <p class="text-sm md:text-base mb-6 font-light max-w-2xl text-gray-800">
-                Ekspertë në mbrojtjen e të drejtave tuaja. Ne ofrojmë konsulencë dhe përfaqësim ligjor të personalizuar, duke kombinuar eksperiencën me inovacionin për të siguruar suksesin tuaj.
-            </p>
+    <header class="relative min-h-screen flex items-center justify-center overflow-hidden bg-white">
+    
+    <!-- Minimal animated background -->
+    <div class="absolute inset-0 pointer-events-none">
+        <div class="absolute -top-40 -left-40 w-[600px] h-[600px] bg-blue-200 rounded-full blur-[140px] opacity-30"></div>
+        <div class="absolute top-20 -right-40 w-[600px] h-[600px] bg-purple-200 rounded-full blur-[140px] opacity-30"></div>
+    </div>
+
+    <div class="relative z-10 max-w-5xl mx-auto px-6 text-center hero-content">
+        
+        <span class="inline-block mb-6 px-6 py-2 rounded-full text-sm font-medium text-blue-700 bg-blue-50">
+            Studio Ligjore • Eksperiencë & Besim
+        </span>
+
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight mb-6">
+            Studio Ligjore <br>
+            <span class="animated-text-gradient">Gentjana Ndoj</span>
+        </h1>
+
+        <p class="max-w-2xl mx-auto text-lg text-gray-600 leading-relaxed mb-10">
+            Ekspertë në mbrojtjen e të drejtave tuaja. Ne ofrojmë konsulencë dhe përfaqësim
+            ligjor të personalizuar, duke kombinuar eksperiencën me inovacionin.
+        </p>
+
+        <div class="flex justify-center">
             <div class="gradient-container">
                 <a href="#contact">Bëni një konsultë</a>
             </div>
         </div>
-    </header>
+
+    </div>
+</header>
+
 
     <main class="container mx-auto px-4 py-8">
 
@@ -724,6 +746,7 @@ ndrekaendi@gmail.com
 </body>
 
 </html>
+
 
 
 
